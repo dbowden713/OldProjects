@@ -6,13 +6,19 @@ A collection of old projects and code snippets I've written in the past. Most of
 
 *See wiki for more detailed information!*
 
+- [Connect Four](#connect-four)
 - [Multicast Chat Client](#multicast-chat-client)
 - [TFTP UDP Client](#tftp-udp-client)
+
 
 ## Snippets
 
 - [RO Custom Resolution](#ro-custom-resolution)
 
+---
+
+### Connect Four
+A simple java-based implementation of the classic Connect Four game.
 
 ### Multicast Chat Client
 This java-based program creates a simple chatroom-style client that communicates over Multicast.
