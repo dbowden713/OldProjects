@@ -6,12 +6,12 @@ A collection of old projects and code snippets I've written in the past. Most of
 
 *See wiki for more detailed information!*
 
-- [Multicast Chat Client](#Multicast-Chat-Client)
-- [TFTP UDP Client](#TFTP-UDP-Client)
+- [Multicast Chat Client](#multicast-chat-client)
+- [TFTP UDP Client](#tftp-udp-client)
 
 ## Snippets
 
-- [RO Custom Resolution](#RO-Custom-Resolution)
+- [RO Custom Resolution](#ro-custom-resolution)
 
 
 ### Multicast Chat Client
