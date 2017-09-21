@@ -1,0 +1,290 @@
+Job Selection: SJF
+Memory Allocation: BF
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+0	0	4	48		5		READY
+0	1	-1	59		13		WAITING
+0	2	-1	52		5		WAITING
+0	3	-1	47		6		WAITING
+0	4	-1	58		8		WAITING
+0	5	-1	51		10		WAITING
+0	6	1	36		5		READY
+0	7	2	23		13		READY
+0	8	-1	39		13		WAITING
+0	9	-1	40		7		WAITING
+0	10	0	30		5		READY
+0	11	-1	48		6		WAITING
+0	12	-1	52		11		WAITING
+0	13	-1	29		7		WAITING
+0	14	-1	57		7		WAITING
+0	15	5	25		5		READY
+0	16	-1	61		11		WAITING
+0	17	6	17		13		READY
+0	18	-1	55		8		WAITING
+0	19	-1	59		11		WAITING
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+1	0	4	48		4		READY
+1	6	1	36		4		READY
+1	7	2	23		12		READY
+1	10	0	30		4		READY
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+2	6	1	36		3		READY
+2	10	0	30		3		READY
+2	15	5	25		4		READY
+2	17	6	17		12		READY
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+3	0	4	48		3		READY
+3	7	2	23		11		READY
+3	15	5	25		3		READY
+3	17	6	17		11		READY
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+4	0	4	48		2		READY
+4	6	1	36		2		READY
+4	7	2	23		10		READY
+4	10	0	30		2		READY
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+5	6	1	36		1		READY
+5	10	0	30		1		READY
+5	15	5	25		2		READY
+5	17	6	17		10		READY
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+6	0	4	48		1		READY
+6	7	2	23		9		READY
+6	15	5	25		1		READY
+6	17	6	17		9		READY
+Wasted Space: 16
+Waiting Jobs: 14
+Finished Jobs: 0
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+7	0	4	48		0		FINISHED
+7	6	1	36		0		FINISHED
+7	7	2	23		8		READY
+7	10	0	30		0		FINISHED
+Wasted Space: 48
+Waiting Jobs: 14
+Finished Jobs: 3
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+8	2	4	52		5		READY
+8	6	1	36		0		FINISHED
+8	7	2	23		7		READY
+8	15	5	25		0		FINISHED
+8	17	6	17		8		READY
+Wasted Space: 80
+Waiting Jobs: 13
+Finished Jobs: 4
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+9	2	4	52		4		READY
+9	3	1	47		5		READY
+9	7	2	23		6		READY
+9	17	6	17		7		READY
+Wasted Space: 80
+Waiting Jobs: 12
+Finished Jobs: 4
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+10	2	4	52		3		READY
+10	3	1	47		4		READY
+10	7	2	23		5		READY
+10	17	6	17		6		READY
+Wasted Space: 80
+Waiting Jobs: 12
+Finished Jobs: 4
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+11	2	4	52		2		READY
+11	3	1	47		3		READY
+11	7	2	23		4		READY
+11	17	6	17		5		READY
+Wasted Space: 80
+Waiting Jobs: 12
+Finished Jobs: 4
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+12	2	4	52		1		READY
+12	3	1	47		2		READY
+12	7	2	23		3		READY
+12	17	6	17		4		READY
+Wasted Space: 80
+Waiting Jobs: 12
+Finished Jobs: 4
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+13	2	4	52		0		FINISHED
+13	3	1	47		1		READY
+13	7	2	23		2		READY
+13	17	6	17		3		READY
+Wasted Space: 80
+Waiting Jobs: 12
+Finished Jobs: 5
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+14	3	1	47		0		FINISHED
+14	7	2	23		1		READY
+14	11	4	48		5		READY
+14	17	6	17		2		READY
+Wasted Space: 48
+Waiting Jobs: 11
+Finished Jobs: 6
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+15	7	2	23		0		FINISHED
+15	9	1	40		6		READY
+15	11	4	48		4		READY
+15	13	0	29		7		READY
+15	17	6	17		1		READY
+Wasted Space: 72
+Waiting Jobs: 9
+Finished Jobs: 7
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+16	9	1	40		5		READY
+16	11	4	48		3		READY
+16	13	0	29		6		READY
+16	17	6	17		0		FINISHED
+Wasted Space: 96
+Waiting Jobs: 9
+Finished Jobs: 8
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+17	9	1	40		3		READY
+17	11	4	48		2		READY
+17	13	0	29		5		READY
+Wasted Space: 96
+Waiting Jobs: 9
+Finished Jobs: 8
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+18	9	1	40		2		READY
+18	11	4	48		0		FINISHED
+18	13	0	29		4		READY
+Wasted Space: 96
+Waiting Jobs: 9
+Finished Jobs: 9
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+19	9	1	40		1		READY
+19	13	0	29		2		READY
+19	14	4	57		6		READY
+Wasted Space: 96
+Waiting Jobs: 8
+Finished Jobs: 9
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+20	9	1	40		0		FINISHED
+20	13	0	29		1		READY
+20	14	4	57		5		READY
+Wasted Space: 144
+Waiting Jobs: 8
+Finished Jobs: 10
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+21	13	0	29		0		FINISHED
+21	14	4	57		3		READY
+Wasted Space: 176
+Waiting Jobs: 8
+Finished Jobs: 11
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+22	14	4	57		0		FINISHED
+Wasted Space: 176
+Waiting Jobs: 8
+Finished Jobs: 12
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+23	4	4	58		4		READY
+Wasted Space: 176
+Waiting Jobs: 7
+Finished Jobs: 12
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+24	4	4	58		0		FINISHED
+Wasted Space: 176
+Waiting Jobs: 7
+Finished Jobs: 13
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+25	18	4	55		4		READY
+Wasted Space: 176
+Waiting Jobs: 6
+Finished Jobs: 13
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+26	18	4	55		0		FINISHED
+Wasted Space: 176
+Waiting Jobs: 6
+Finished Jobs: 14
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+27	5	4	51		6		READY
+Wasted Space: 176
+Waiting Jobs: 5
+Finished Jobs: 14
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+28	5	4	51		2		READY
+Wasted Space: 176
+Waiting Jobs: 5
+Finished Jobs: 14
+---------------------------------------------------
+TIME	ID	SEGMENT	MEM REQUEST	TIME REMAIN	MESSAGES
+
+29	5	4	51		0		FINISHED
+Wasted Space: 176
+Waiting Jobs: 5
+Finished Jobs: 15
+---------------------------------------------------
