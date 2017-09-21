@@ -22,7 +22,7 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 	private Mine[][] mineBoard;
 	private ImageIcon sq1, sq2, sq3, sq4, sq5, sq6, sq7, sq8, sq0, unsel, mine;
 	private int numTiles, numTilesUn;
-	private JLabel face = new JLabel(new ImageIcon("img/smile.jpg"));
+	private JLabel face = new JLabel(new ImageIcon(this.getClass().getResource("img/smile.jpg")));
 	
 	public MineSweeper() {
 		MineSweeper defaultInit = new MineSweeper("Easy");
@@ -36,17 +36,17 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 		currentDifficulty = difficulty;
 		
 		// load resource files for tiles
-		sq0 = new ImageIcon("img/sq0.GIF");
-		sq1 = new ImageIcon("img/sq1.GIF");
-		sq2 = new ImageIcon("img/sq2.GIF");
-		sq3 = new ImageIcon("img/sq3.GIF");
-		sq4 = new ImageIcon("img/sq4.GIF");
-		sq5 = new ImageIcon("img/sq5.GIF");
-		sq6 = new ImageIcon("img/sq6.GIF");
-		sq7 = new ImageIcon("img/sq7.GIF");
-		sq8 = new ImageIcon("img/sq8.GIF");
-		mine = new ImageIcon("img/mine.GIF");
-		unsel = new ImageIcon("img/unselected.png");
+		sq0 = new ImageIcon(this.getClass().getResource("img/sq0.gif"));
+		sq1 = new ImageIcon(this.getClass().getResource("img/sq1.gif"));
+		sq2 = new ImageIcon(this.getClass().getResource("img/sq2.gif"));
+		sq3 = new ImageIcon(this.getClass().getResource("img/sq3.gif"));
+		sq4 = new ImageIcon(this.getClass().getResource("img/sq4.gif"));
+		sq5 = new ImageIcon(this.getClass().getResource("img/sq5.gif"));
+		sq6 = new ImageIcon(this.getClass().getResource("img/sq6.gif"));
+		sq7 = new ImageIcon(this.getClass().getResource("img/sq7.gif"));
+		sq8 = new ImageIcon(this.getClass().getResource("img/sq8.gif"));
+		mine = new ImageIcon(this.getClass().getResource("img/mine.gif"));
+		unsel = new ImageIcon(this.getClass().getResource("img/unselected.png"));
 		
 		// easy - 10x10 board with 10 mines
 		if(difficulty.equals("Easy")) {
@@ -107,7 +107,7 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 		pack();
 		setLocationRelativeTo(null);
 		setTitle("Minesweeper");
-		setIconImage(new ImageIcon("img/icon.png").getImage());
+		setIconImage(new ImageIcon(this.getClass().getResource("img/icon.png")).getImage());
 		setResizable(false);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -313,7 +313,7 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 	private void checkWin() {
 		if(numTilesUn == numTiles)
 		{
-			face.setIcon(new ImageIcon("img/cool.jpg"));
+			face.setIcon(new ImageIcon(this.getClass().getResource("img/cool.jpg")));
 			JOptionPane.showMessageDialog(null,"You Win!!");
 			dispose();
 			MineSweeper newGame;
@@ -344,7 +344,7 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 		}
 			
 		// when user clicked a mine
-		if(mineBoard[loc[0]][loc[1]] == Mine.MINE && e.getButton() == MouseEvent.BUTTON1 && !tiles[loc[0]][loc[1]].getIcon().toString().equals("img/flagged.png"))
+		if(mineBoard[loc[0]][loc[1]] == Mine.MINE && e.getButton() == MouseEvent.BUTTON1 && !tiles[loc[0]][loc[1]].getIcon().toString().endsWith("img/flagged.png"))
 		{
 			for(int i=0; i<mineBoard.length; i++)
 				for(int j=0; j<mineBoard[0].length; j++)
@@ -352,7 +352,7 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 						tiles[i][j].setIcon(mine);
 						
 			timer.stop();
-			face.setIcon(new ImageIcon("img/dead.jpg"));
+			face.setIcon(new ImageIcon(this.getClass().getResource("img/dead.jpg")));
 			JOptionPane.showMessageDialog(null,"You lose!");
 			tiles[loc[0]][loc[1]].setBorder(BorderFactory.createLineBorder(Color.RED));
 			dispose();
@@ -378,25 +378,25 @@ public class MineSweeper extends JFrame implements MouseListener, ActionListener
 		//for left-click
 		if(e.getButton() == MouseEvent.BUTTON1) {
 			tiles[loc[0]][loc[1]].setBorder(BorderFactory.createLineBorder(Color.GREEN));
-			face.setIcon(new ImageIcon("img/uhoh.jpg"));
+			face.setIcon(new ImageIcon(this.getClass().getResource("img/uhoh.jpg")));
 		}
 			
 		//for right-click, flag a tile as a mine
 		if(e.getButton() == MouseEvent.BUTTON3) {
 			tiles[loc[0]][loc[1]].setBorder(BorderFactory.createLineBorder(Color.ORANGE));
-			if(tiles[loc[0]][loc[1]].getIcon().toString().equals("img/flagged.png")) {
+			if(tiles[loc[0]][loc[1]].getIcon().toString().endsWith("img/flagged.png")) {
 				tiles[loc[0]][loc[1]].setIcon(unsel);
 				numMines.setText(Integer.toString(Integer.parseInt(numMines.getText()) + 1));
 			}
-			else if(tiles[loc[0]][loc[1]].getIcon().toString().equals("img/unselected.png") && !numMines.getText().equals("0")) {
-				tiles[loc[0]][loc[1]].setIcon(new ImageIcon("img/flagged.png"));
+			else if(tiles[loc[0]][loc[1]].getIcon().toString().endsWith("img/unselected.png") && !numMines.getText().equals("0")) {
+				tiles[loc[0]][loc[1]].setIcon(new ImageIcon(this.getClass().getResource("img/flagged.png")));
 				numMines.setText(Integer.toString(Integer.parseInt(numMines.getText()) - 1));
 			}
 		}
 	}
 	
 	public void mouseReleased(MouseEvent e) {
-		face.setIcon(new ImageIcon("img/smile.jpg"));
+		face.setIcon(new ImageIcon(this.getClass().getResource("img/smile.jpg")));
 	}
 	
 	public void actionPerformed(ActionEvent e) {
