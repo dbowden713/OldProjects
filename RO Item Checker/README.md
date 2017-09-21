@@ -1,5 +1,5 @@
 # RO Item Checker
-A small program I wrote to help a developer on a small private server for the MMORPG, Ragnarok Online. Parses a flatfile database of items in the game and returns a list of items with a specific script type (OnUnequip_Script).
+A small C#-based program I wrote to help a developer on a small private server for the MMORPG, Ragnarok Online. Parses a flatfile database of items in the game and returns a list of items with a specific script type (OnUnequip_Script).
 
 ### Installation
 This is a standalone program. Just run!
