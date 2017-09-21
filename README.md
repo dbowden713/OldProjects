@@ -14,6 +14,7 @@ A collection of old projects and code snippets I've written in the past. Most of
 ## Snippets
 
 - [RO Custom Resolution](#ro-custom-resolution)
+- [RO Item Checker](#ro-item-checker)
 
 ---
 
@@ -30,3 +31,6 @@ This java-based program uses UDP (User Datagram Protocol) to send files via TFTP
 
 ### RO Custom Resolution
 A console-based C++ code snippet for the MMORPG, Ragnarok Online. Modifies the game's registry settings to allow a custom screen resolution outside the normal presets in the game's settings.
+
+### RO Item Checker
+A small program I wrote to help a developer on a small private server for the MMORPG, Ragnarok Online. Parses a flatfile database of items in the game and returns a list of items with a specific script type (OnUnequip_Script).
