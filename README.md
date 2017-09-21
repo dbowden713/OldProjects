@@ -7,6 +7,7 @@ A collection of old projects and code snippets I've written in the past. Most of
 *See wiki for more detailed information!*
 
 - [Connect Four](#connect-four)
+- [Minesweeper](#minesweeper)
 - [Multicast Chat Client](#multicast-chat-client)
 - [RO Item Manager](#ro-item-manager)
 - [TFTP UDP Client](#tftp-udp-client)
@@ -21,6 +22,9 @@ A collection of old projects and code snippets I've written in the past. Most of
 
 ### Connect Four
 A simple java-based implementation of the classic Connect Four game.
+
+### Minesweeper
+A java-based recreation of the classic Minesweeper game. Try to flag all the hidden mines on a grid without clicking one directly!
 
 ### Multicast Chat Client
 This java-based program creates a simple chatroom-style client that communicates over Multicast.
