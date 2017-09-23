@@ -17,6 +17,7 @@ A collection of old projects and code snippets I've written in the past. Most of
 
 ## Snippets
 
+- [Collision Detection](#collision-detection)
 - [RO Custom Resolution](#ro-custom-resolution)
 - [RO Item Checker](#ro-item-checker)
 
@@ -44,6 +45,9 @@ A small python-based OpenGL program that creates a scary room with an enemy that
 This java-based program uses UDP (User Datagram Protocol) to send files via TFTP (Trivial File Transfer Protocol).
 
 ---
+
+### Collision Detection
+A small python-based OpenGL program that tests collision detection with the walls of a room.
 
 ### RO Custom Resolution
 A console-based C++ code snippet for the MMORPG, Ragnarok Online. Modifies the game's registry settings to allow a custom screen resolution outside the normal presets in the game's settings.
