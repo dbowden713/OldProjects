@@ -1,6 +1,8 @@
 # Collision Detection
 A small python-based OpenGL program that tests collision detection with the walls of a room.
 
+*I consider this a snippet because, although the implemetation of OpenGL is complex, the program doesn't actually do much.*
+
 ### Installation
 This program requires Python (2 and 3 supported) and [PyOpenGL](opengl.sourceforge.net) to run.
 
