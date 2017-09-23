@@ -7,6 +7,7 @@ A collection of old projects and code snippets I've written in the past. Most of
 *See wiki for more detailed information!*
 
 - [Connect Four](#connect-four)
+- [Hypothetical OS](#hypothetical-os)
 - [Minesweeper](#minesweeper)
 - [Multicast Chat Client](#multicast-chat-client)
 - [RO Item Manager](#ro-item-manager)
@@ -22,6 +23,9 @@ A collection of old projects and code snippets I've written in the past. Most of
 
 ### Connect Four
 A simple java-based implementation of the classic Connect Four game.
+
+### Hypothetical OS
+A java-based operating system emulation written for a term project. Uses various process scheduling and memory management techniques (first-in first-out, round robin, etc.) for time on the processor.
 
 ### Minesweeper
 A java-based recreation of the classic Minesweeper game. Try to flag all the hidden mines on a grid without clicking one directly!
