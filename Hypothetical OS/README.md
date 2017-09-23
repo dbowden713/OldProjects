@@ -15,14 +15,11 @@ This is a standalone program. Compile with java and run, run the pre-compiled cl
 
 - All jobs are executed with a variety of process scheduling and memory management techniques:
 
-<center>
-
 Job Scheduling | Memory Scheduling
 ---------------|-------------------
 First-in First-Out | First Fit
 First-in First-Out | Best Fit
 Shortest Job First | Best Fit
 
-</center>
 ### Credits
 [dbowden713](https://github.com/dbowden713)
