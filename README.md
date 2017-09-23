@@ -11,6 +11,7 @@ A collection of old projects and code snippets I've written in the past. Most of
 - [Minesweeper](#minesweeper)
 - [Multicast Chat Client](#multicast-chat-client)
 - [RO Item Manager](#ro-item-manager)
+- [Scary Room](#scary-room)
 - [TFTP UDP Client](#tftp-udp-client)
 
 
@@ -35,6 +36,9 @@ This java-based program creates a simple chatroom-style client that communicates
 
 ### RO Item Manager
 A python-based console program for the MMORPG, Ragnarok Online. Allows editing client-side item descriptions, to add special flags for important items (quest items, crafting items, etc.).
+
+### Scary Room
+A small python-based OpenGL program that creates a scary room with an enemy that slowly chases you!
 
 ### TFTP UDP Client
 This java-based program uses UDP (User Datagram Protocol) to send files via TFTP (Trivial File Transfer Protocol).
